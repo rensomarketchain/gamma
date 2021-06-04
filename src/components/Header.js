@@ -8,7 +8,6 @@ export default function Header(props) {
       className={`${headerStyles.header} ${props.page === 'info' &&
         headerStyles.info_page}`}
     >
-    <img src="/content/images/rmc.svg">
       <nav
         className={headerStyles.header__nav}
         role="navigation"
