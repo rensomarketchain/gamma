@@ -8,7 +8,7 @@ export default function Header(props) {
       className={`${headerStyles.header} ${props.page === 'info' &&
         headerStyles.info_page}`}
     >
-      <img src="../../content/images/RMC.png">
+      <img src="../../content/images/RMC.png"/>
       
       
       <nav
